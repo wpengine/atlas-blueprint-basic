@@ -1,0 +1,40 @@
+@import 'styles/Variables';
+
+.cta {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  background-color: var(--color-primary);
+  padding: 6rem;
+  border: 2rem solid #fff;
+  color: #fff;
+  box-shadow: $box-shadow;
+
+  @media (min-width: $breakpoint-small) {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.content {
+  width: 100%;
+  margin-bottom: 3rem;
+  font-size: 1.9rem;
+
+  @media (min-width: $breakpoint-small) {
+    width: 60%;
+    margin-bottom: 0;
+  }
+}
+
+.action {
+  width: 100%;
+  text-align: left;
+
+  @media (min-width: $breakpoint-small) {
+    width: 40%;
+    text-align: right;
+  }
+}
