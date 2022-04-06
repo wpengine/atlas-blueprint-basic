@@ -16,7 +16,7 @@ jobs:
       - name: Setup
         if: steps.check-for-export-changes.outputs.check != 0
         run: |
-          wget https://github.com/wpengine/atlas-blueprint-portfolio/raw/main/acm-blueprint.zip -O /tmp/acm-blueprint-base.zip
+          wget https://github.com/wpengine/atlas-blueprint-basic/raw/main/acm-blueprint.zip -O /tmp/acm-blueprint-base.zip
           unzip -j /tmp/acm-blueprint-base.zip -d /tmp/acm-blueprint-base
           unzip -j ./acm-blueprint.zip -d /tmp/acm-blueprint-compare
       - name: Create Diff
