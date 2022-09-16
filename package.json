@@ -1,7 +1,7 @@
 {
-  "name": "atlas-blueprint-blank",
+  "name": "@faustjs/atlas-blueprint-blank",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -17,7 +17,7 @@
     "@faustjs/core": "^0.15.2",
     "@faustjs/next": "^0.15.3",
     "gqty": "^2.2.0",
-    "next": "^12.1.0",
+    "next": "^12.2.4",
     "normalize.css": "^8.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
