@@ -28,6 +28,7 @@ export default function ThemeStyles() {
   const themeColor = appConfig?.themeColor ?? 'blue';
 
   return (
+    /* eslint-ignore-line */
     <style jsx global>{`
       :root {
         --color-black: ${themes[themeColor]['--color-black']};
