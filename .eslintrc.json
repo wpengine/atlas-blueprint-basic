@@ -2,15 +2,7 @@
   "extends": ["next", "eslint:recommended", "plugin:import/recommended", "prettier"],
   "rules": {
     "import/no-unresolved": 0,
-    "import/order": ["error", {"newlines-between": "always"}],
-    "react/no-unknown-property": [
-      2,
-      {
-        "ignore": [
-          "jsx", "global"
-        ]
-      }
-    ]
+    "import/order": ["error", {"newlines-between": "always"}]
   },
   "env": {
     "es6": true
