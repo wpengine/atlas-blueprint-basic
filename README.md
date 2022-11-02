@@ -1,7 +1,7 @@
 # Atlas Blueprint Blog
 
 <strong>
-    NOTE: The Blog and Basic Blueprints are bring deprecated. Please use the Portfolio and Blank starter Blueprints instead.
+    NOTE: The Blog and Basic Blueprints are bring deprecated.
 </strong>
 
 <br>
@@ -11,6 +11,7 @@ This repository contains a starter Blueprint to get you up and running quickly o
 
 For more information on this Blueprint please check out the following sources:
 
+- Check here for available [Blueprints](https://my.wpengine.com/atlas#/create/blueprint).
 - [WP Engine's Atlas Platform](https://wpengine.com/atlas/)
 - [Faust.js](https://faustjs.org)
 - [WPGraphQL](https://www.wpgraphql.com)
