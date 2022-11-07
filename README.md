@@ -1,8 +1,8 @@
 # Atlas Blueprint Blog
 
-<strong>
-    NOTE: The Blog and Basic Blueprints are bring deprecated.
-</strong>
+<blockquote>
+    NOTE: This blueprint has been deprecated.
+</blockquote>
 
 <br>
 This repository contains a starter Blueprint to get you up and running quickly on [WP Engine's Atlas platform](https://wpengine.com/atlas/) with a simple WordPress blog site.
